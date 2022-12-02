@@ -1,9 +1,3 @@
-/*
- * Katie James
- * 2048
- * CSIS 304 JavaScript Project
-*/
-
 //Using the p5.js third-party JavaScript library
 
 //constant declarations
