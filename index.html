@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Specifying the character encoding -->
         <meta charset="utf-8">
+        <!-- Setting the title of the page -->
         <title>2048</title>
-        <!--Using the p5.js third-party JavaScript library-->
+        <!-- Using the p5.js third-party JavaScript library -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+        <!-- Adding the p5.dom library for easier DOM manipulation -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+        <!-- Linking the CSS stylesheet -->
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <!-- The main container for the game -->
         <div class="container">
+            <!-- The title of the game -->
             <h1 id="title">2048</h1>
+            <!-- The container for the score display -->
             <div id="score-container">
+                <!-- The title for the score display -->
                 <div id="score-title">SCORE</div>
+                <!-- The actual score display -->
                 <div id="score"></div>
             </div>
+            <!-- The instructions for playing the game -->
             <p id="instructions">Hit the arrow keys to slide the tiles and reach the <span>2048</span> tile!</p>
         </div>
+        <!-- The script file containing the game logic -->
         <script src="script.js"></script>
     </body>
 </html>
-
